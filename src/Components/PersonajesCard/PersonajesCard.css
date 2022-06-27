@@ -1,0 +1,17 @@
+
+.personaje_card{
+    transition: all 250ms ease-in-out;
+}
+
+.personaje_card:hover {
+    transform: scale(1.05);
+    box-shadow: 3px 4px 5px 0px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 3px 4px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 3px 4px 5px 0px rgba(0,0,0,0.75);
+    cursor: pointer;
+}
+
+.personaje_card img {
+    width: 100%;
+    object-fit: cover;
+}
